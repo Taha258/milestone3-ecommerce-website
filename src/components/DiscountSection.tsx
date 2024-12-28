@@ -12,7 +12,7 @@ export default function DiscountSection() {
             Get <span className="text-yellow-400">50% Off</span> on Your First Purchase
           </p>
           <p className="text-lg md:text-xl mb-8 animate__animated animate__fadeIn animate__delay-3s">
-            Don't miss out. Shop now before it's too late!
+          Don&apos;t miss out. Shop now before it&apos;s too late!
           </p>
           <a
             href="#shop-now"

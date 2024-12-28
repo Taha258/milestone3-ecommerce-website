@@ -2,14 +2,14 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 interface ProductCardProps {
-  _id: string
+ 
   name: string
   slug: string
   price: number
   imageUrl: string
 }
 
-export default function ProductCard({ _id, name, slug, price, imageUrl }: ProductCardProps) {
+export default function ProductCard({ name, slug, price, imageUrl }: ProductCardProps) {
   return (
     <Link href={`/product/${slug}`} className="group block p-4 border border-gray-200 rounded-xl shadow-lg transition-all hover:shadow-2xl hover:bg-gray-50">
       <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8 transition-all group-hover:scale-105">
