@@ -12,10 +12,8 @@ interface Product {
   imageUrl: string;
 }
 
-
-
 export default async function Home() {
-  const products:Product[] = await getProducts()
+  const products: Product[] = await getProducts()
   
   return (
     <div className="min-h-screen bg-gray-100">
@@ -28,7 +26,7 @@ export default async function Home() {
         ) : (
           <>
             <p className="text-lg text-gray-600 mb-6">Showing {products.length} products</p>
-            <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
               {products.map((product) => (
                 <ProductCard key={product._id} {...product} />
               ))}
@@ -40,4 +38,3 @@ export default async function Home() {
     </div>
   )
 }
-

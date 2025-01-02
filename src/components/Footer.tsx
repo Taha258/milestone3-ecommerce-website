@@ -1,6 +1,10 @@
 // components/Footer.js
 
 import Link from "next/link";
+import { FaLinkedin } from "react-icons/fa6";
+import { IoLogoInstagram } from "react-icons/io5";
+import { FaTwitter } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa6";
 
 export default function Footer() {
     return (
@@ -78,25 +82,25 @@ export default function Footer() {
                   href="#"
                   className="w-10 h-10 flex items-center justify-center bg-gray-700 rounded-full hover:bg-gray-600"
                 >
-                  <i className="fab fa-facebook-f"></i>
+                  <FaFacebookF />
                   </Link>
                 <Link
                   href="#"
                   className="w-10 h-10 flex items-center justify-center bg-gray-700 rounded-full hover:bg-gray-600"
                 >
-                  <i className="fab fa-twitter"></i>
+                  <FaTwitter />
                   </Link>
                 <Link
                   href="#"
                   className="w-10 h-10 flex items-center justify-center bg-gray-700 rounded-full hover:bg-gray-600"
                 >
-                  <i className="fab fa-instagram"></i>
+                  <IoLogoInstagram />
                   </Link>
                 <Link
                   href="#"
                   className="w-10 h-10 flex items-center justify-center bg-gray-700 rounded-full hover:bg-gray-600"
                 >
-                  <i className="fab fa-linkedin-in"></i>
+                  <FaLinkedin />
                   </Link>
               </div>
             </div>

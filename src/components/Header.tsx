@@ -13,8 +13,8 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo Section */}
           <div className="flex items-center">
-            <Link href="/" className="text-3xl font-bold text-gray-900 hover:text-indigo-600 transition-colors duration-200">
-              StyleHub
+            <Link href="/" className="text-4xl font-bold text-indigo-600 hover:text-indigo-800 transition-colors duration-200">
+              ShopZone
             </Link>
           </div>
 
